@@ -1,0 +1,72 @@
+body{
+    width: 1920px;
+    height: 1080px;
+    background-color: #E5E1D8;
+}
+
+.video{
+    margin-top: 10px;
+}
+
+.brightness{
+    top: 6.7%;
+    left: 0%;
+    position: absolute;
+    height: 1095px;
+    width: 1920px;
+    background-color: rgba(0,0,0,0.20);
+}
+
+.logo{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+}
+
+.desc1{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1px;
+}
+
+.desc1 img{
+    height: 90px;
+}
+
+.desc2{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1px;
+}
+
+.desc2 img{
+    height: 120px;
+}
+
+.nav{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+.nav img{
+    height: 60px;
+}
+
+.play{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play img{
+    height: 80px;
+    
+}

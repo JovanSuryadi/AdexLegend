@@ -1,0 +1,54 @@
+.background{
+    width: 100%;
+    min-width: 1080px;
+    height: 1680px;
+    background-size: cover;
+    background-image: url(./asset/background/Basic\ BG.png);
+}
+
+.nav img{
+    height: 4%;
+}
+
+.header{
+    justify-content: end;
+    align-items: center;
+    height: 180px;
+    margin-left: 1270px;
+    
+}
+
+.header img{
+    height: 140px;
+}
+
+.characters{
+    justify-content: center;
+    align-items: center;
+}
+
+.mina{
+    margin-left: 100px;
+   
+}
+.ember{
+    margin-left: 100px;
+   
+}
+.kevin{
+    margin-left: 100px;
+   
+}
+.carlo{
+    margin-left: 380px;
+    
+}
+.meso{
+    margin-left: 80px;
+    
+}
+
+
+.characters img{
+    height: 700px;
+}

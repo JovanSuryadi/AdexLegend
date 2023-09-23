@@ -1,0 +1,35 @@
+.background{
+    width: 1920px;
+    height: 1100px;
+    background-size: cover;
+    background-color: #E6E2D9;
+}
+
+.arena{
+    margin-left: 120px;
+    margin-top: 70px;
+}
+
+.arena img{
+    height: 220px;
+}
+
+.gambarArena{
+    width: 1920px; 
+    height: 700px; 
+    overflow: hidden;
+}
+
+.gambarArena img{
+    width: 1920px;
+}
+
+.backButton{
+    width: 1920px;
+    margin-top: 30px;
+    margin-left: 960px;
+}
+
+.backButton img{
+    height: 60px;
+}

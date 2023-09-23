@@ -1,0 +1,138 @@
+body{
+    margin:0;
+}
+.bgHome{
+    min-width: 40ch;
+    height: 1980px;
+    height: 60vh;
+    margin:0;
+    padding: 0;
+    background-size: cover;
+    background-image: url(./asset/background/Basic\ BG.png);
+}
+.bgHome1{
+    width: 100%;
+    min-width: 1280px;
+    height: 60vh;
+    background-size: cover;
+    background-image: url(./asset/background/background\ 1.jpg);
+   
+}
+.bgHome2{
+    width: 100%;
+    min-width: 1280px;
+    height: 70vh;
+    background-size: cover;
+    background-image: url(./asset/background/background\ 2.jpg)
+}
+
+.nav-home img{
+    height: 10%;
+    padding-top: 10px;
+}
+.nav-legend img{
+    height: 10%;
+}
+.nav-map img{
+    height: 10%;
+}
+.nav-aboutus img{
+    height: 10%;
+}
+.nav-regis img{
+    height: 10%;
+}
+
+.video{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 90px;
+    
+}
+
+.video video{
+    width: 600px;
+    height: 400px;
+}
+
+.logo{
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 2000px;
+    height: 1000px;
+    grid-row: auto;
+}
+
+.logo img{
+    align-items: center;
+    justify-content: center;
+    height: 20%; 
+}
+
+.playNow{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 2000px;
+    height: 1300px;
+}
+
+.playNow img{
+    align-items: center;
+    justify-content: center;
+    height: 5%; 
+}
+
+.news{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 2900px;
+    height: 800px;
+}
+
+.news img{
+    align-items: center;
+    justify-content: center;
+    height: 42%; 
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 40px;
+    background-color: #E6E2D9;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img{
+    margin: 10px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    min-width: 1280px;
+    background-color: #E6E2D9;
+    height: 60px;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: sticky;
+    align-items: center;
+  }
+
+
+
+
+
+

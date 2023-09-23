@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ini buat form kayak pass dll "ketik aaj form" -->
+    <!-- form onsubmit = false(ga lbakal refresh)-->
+    <!-- form onsubmit = true (refresh) -->
+    <form action="" onsubmit="validate()">    
+        <!-- Memasukan Input text aja -->
+        Username:
+        <br>
+        <input type="text" name="" id="txtUsername"> <!-- ID itu buat ke java scriptnya-->
+        <br>
+
+        <!-- Type Input password -->
+        Password:
+        <br>
+        <input type="password"placeholder="E" name="" id="txtPassword">
+
+        <br>
+        <!-- Input:email -->
+        Email:
+        <br>
+        <!-- Email kalau misalkan mau validasi bisa pake javascript kalau misalkan mau validasi kali kasih type="text" -->
+        <input type="text" name="" id="txtEmail">
+        <!-- Dropdown -->
+        <!-- Pake select buat country -->
+        <br>
+        <select name="" id="dropCountry">
+            <!-- option -->
+            <option value="-1">Choose your country</option> <!-- Default View-->
+            <option value="Indonesia">Indonesia</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapore">Singapore</option>
+        </select>
+        <br>
+        <!--Input Check Box-->
+        <input type="checkbox" name="" id="chAgree">I Agree to terms and conditions
+        <br>
+        <input type="radio" name="gender" id="radioMale">Male <!-- Ini buat titik 2, cara biar ngga bisa pilih 22 nya dengan cara mengganti name yg sama-->
+        <input type="radio" name="gender" id="radioFemale">Female
+        <!-- Tombol buat submit -->
+        <!-- Kalau mau tambahin seperti invalid name, nah kalau misalkan ada error tinggal panggil id error -->
+        <p id= "error" style="color: red;font-family: 'Courier New', Courier, monospace ;"></p> <!-- Error msg validasi tinggal ganti "username is invalid"-->
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+<script src="./Script.js"></script>
+</html>

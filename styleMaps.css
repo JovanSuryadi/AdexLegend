@@ -1,0 +1,42 @@
+.background{
+    width: 100%;
+    min-width: 1920px;
+    height: 1080px;
+    margin: 0%;
+    background-size: cover;
+    background-image: url(./asset/background/Basic\ BG.png);
+}
+
+.nav img{
+    height: 10%;
+    padding-left: 10px;
+    margin: 0%;
+}
+
+.header{
+    height: 140px;
+    width: 400px;
+    margin-left: 1500px;
+    margin-bottom: 10px;
+}
+
+.header img{
+    height: 150px;
+    padding-inline-end: 19;
+}
+
+.mapImage img{  
+    height: 600px;
+    width: 1920px;
+}
+
+.button{
+    width: auto;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.button img{
+    height: 200px;
+}
+
